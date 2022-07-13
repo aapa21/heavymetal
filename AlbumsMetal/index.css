@@ -1,0 +1,308 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1635545195955-e65d68631341?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+}
+
+h1{
+    color: white;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+/*Imágenes*/
+img{
+    width:200px;
+    box-shadow: 2px 4px 5px black;
+    border-radius: 8px;
+}
+
+/*Encabezados*/
+header{
+    width: 1283px;
+    margin: -10px;
+    margin-bottom: 20px; 
+    padding: 1rem 2rem;
+    background-color: #364552;
+    border: 2px solid #364552;
+}
+
+.title{
+    text-align: center;
+    width: 500px;
+    font-size: 2rem;
+    margin: 10px 395px -10px;
+}
+
+/*Inicio de sesión*/
+.form-container{
+      background-color: white;
+      padding: 10px 5px;
+      margin-top: -18px;
+      margin-right: -7px;
+      margin-left: -7px;
+      text-align: right;
+      border-radius: 8px;
+}
+
+/*Índice*/
+.index{
+    width:300px;
+    height: 375px;
+    margin-top: 10px;
+    background-color: #6a8e16;
+    border-radius: 10px;
+    border: 2px solid #216;
+    font-size: 16px;
+    font-weight: 520;
+}
+
+.index-songs{
+    color: #fff;
+    font-weight: 700;
+}
+
+.index-title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+ol a:visited{
+    color: #136;
+}
+
+ol a:link{
+    color:#136;
+    text-decoration: none;
+}
+
+ol a:hover{
+    color:#fff;
+}
+
+.contents-albums{
+    margin:10px;
+    text-align: center;
+}
+
+/*Introduciendo albums*/
+h2{
+    height: 30px;
+    width: 345px;
+    background-color: #a2a9b1;
+    margin-left: 520px;
+    padding: 2px 3px 1px;
+    border-radius: 5px;
+    border: 3px solid #a2a9b1;
+    font-size: 30px;
+
+}
+
+.header-img{
+    height:80px;
+    width:80px;
+    padding: auto;
+    margin-top: -100px;
+    animation: desplazar 2.3s forwards;
+    position: relative;
+}
+
+.header-img2{
+    height:90px;
+    width:90px;
+    padding: auto;
+    margin: -80px 1200px 20px;
+    animation: desplazar2 2.3s forwards;
+    position: relative;
+}
+
+/*Texto de presentación*/
+.presentation{
+    height: 100px;
+    width: 1333px;
+    padding: 8px 5px 2px 9px;
+    margin: 2px 2px 20px -7px;
+    background-color: #466;
+    font-family: 'Enriqueta', serif;
+    font-size: 17px;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+}
+
+/*Editando encabezados de canciones*/
+h3 {
+   font-size: 25px;
+}
+
+/*Editando contenido de los discos*/
+ul{
+    list-style-type: none;
+}
+
+/*Editando las otras canciones*/
+.anotherSongs{
+    height: 150px;
+    width: 500px;
+    margin: 50px 5px;
+    border: 5px solid #efe;
+    padding: 5px 10px;
+    background-color: #efe;
+    border-radius: 10px;
+}
+
+.anotherSongs a{
+    text-decoration: none;
+}
+
+.anotherSongs a:hover{
+    color: #a2b;
+}
+
+.anotherSongs p{
+    text-align: center;
+    font-size: 23px;
+    padding: auto;
+    margin-top: 6px;
+    margin-bottom: 30px;
+}
+
+.anotherSongs ul{
+    margin-top: -10px;
+}
+
+.anotherSongs div{
+    height: 90px;
+    width: 90px;
+    background-color: blue;
+    background-image: url(https://i.discogs.com/xoE3eminmmePdlNwDyz_WMOxnObSoaospG74sraQJiY/rs:fit/g:sm/q:90/h:399/w:400/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNjk1/MjEtMTQxNDU0Nzkw/MC0yNTY5LmpwZWc.jpeg);
+    padding: auto;
+    background-size: cover;
+    margin: -85px 350px;
+}
+
+/*Modificando fondo para el copyright y redes sociales*/
+.background_networks{
+    background-color: rgb(156, 63, 63);
+    height: 110px;
+    width: 1333px;
+    margin: -10px -10px 2px -5px;
+}
+
+footer{
+    color: #fff;
+    height: 20px;
+    width: 310px;
+    text-align: center;
+    margin: -25px 1028px 10px;
+    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #000;
+
+  
+}
+
+info-li{
+   display: inline-block;
+}
+
+
+
+.background_networks i{
+    padding: auto;
+    margin: auto 5px;
+}
+
+.background_networks a{
+    color:#000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.background_networks a:hover{
+    color: #fff;
+}
+.social-networks ul{
+    margin-top: 50px;
+}
+
+.background_networks ul{
+    padding: auto;
+    margin-top: 30px;
+}
+
+/*Añadir un comentario*/
+.box-comments{
+    border-radius: 5px;
+    height: auto;
+    width: 400px;
+    text-align: center;
+    padding: 10px 2px;
+    margin: 25px 500px;
+}
+
+.box-comments label{
+    font-size: 20px;
+}
+
+textarea{
+    height: 56px;
+    width: 400px;
+    margin: 8px;
+}
+
+.box-comments input:hover{
+    color: #efefef;
+    background-color: #125;
+    border: 1px solid #125;
+    margin: 1px;
+}
+
+/*Añadir un album*/
+.add-album a{
+    color:#216;
+}
+
+.add-album a:hover{
+    color: #fff;
+}
+
+.add-album a{
+    color: #216;
+}
+
+.add-album{
+    text-align: center;
+    padding: auto;
+    margin: 50px 400px 30px;
+    font-size: 25px;
+}
+
+/*Animaciones para las imagenes*/
+@keyframes desplazar{
+    0% {
+        left: 0;
+    }
+    100%{
+        left: 90%;
+    }
+}
+
+@keyframes desplazar2 {
+    0%{
+        right: 0%;
+    }
+    100%{
+        right: 90%;
+    }
+    
+}
+
+/*Volver al inicio de la página*/
+.topage a{
+    text-decoration: none;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.topage{
+    margin: 40px 590px 60px;
+    padding: auto;
+    width: 225px;
+}

@@ -1,0 +1,161 @@
+body{
+    background: radial-gradient(circle, #fff, #bbb);
+    background-size: cover;
+}
+
+/*Editando el fondo de las redes sociales*/
+.info-container{
+    padding: auto;
+    margin: -12px -8px 20px;
+    width: 1343px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    display: block;
+    text-align: left;
+    background-image: url(https://media.wickes.co.uk/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_jpg,h_1650,q_auto:good,w_1650/c_pad,h_1650,w_1650/v1/products/wickes/GPID_1100627852_00?pgw=1&pgwact=1);
+}
+
+.social-networks li{
+    display: inline-block; /*Direccionando las redes sociales*/
+    padding: auto;
+    margin: -70px 2px 2px 5px;
+    font-size: 30px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+}
+
+/*Modificando íconos*/
+.social-networks i{
+    color:#312;
+    padding: auto;
+    margin: 7px;
+}
+
+/*Modificado links*/
+.social-networks a{
+    text-decoration: none;
+    color: #33c;
+    font-size: 35px;
+}
+
+.social-networks a:hover{
+    color: #fff;
+}
+
+/*Título de las redes sociales*/
+.info-container p{
+    padding: auto;
+    margin: 15px 870px -40px;
+    width: 450px;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Paytone One', sans-serif;
+    color: #134;
+}
+
+/*Modificando la página*/
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #eee;
+    margin: 50px 50px;
+    padding: 20px;
+    border: 5px solid #000;
+    outline: 6px solid #ffe;
+    border-radius: 5px;
+    border-width: 7px;
+    outline-width: 7px;
+}
+
+.form{
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    order: 5;
+}
+
+form input{
+   width: 100%;
+   padding: 7px;
+   margin: 6px 0;
+   border: none;
+   border-bottom: 3px solid #513;
+   background: transparent;
+   color: #efef;
+}
+
+.form-img{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 400px;
+    order: 2;
+}
+
+.form-img div{
+    padding: 10px;
+}
+.img-container{
+    padding: 20px;
+    margin: auto;
+}
+
+.form-img img{
+    width: 90%;
+    margin: auto;
+}
+
+.img-container div{
+    background-color: #fff;
+    border-radius: 80%;
+    text-align: center;
+    padding: 40px;
+}
+
+.img-metal{
+    border-radius: 50px ;
+}
+/*Editando link*/
+.main{
+    text-decoration: none;
+    margin: 20px 700px;
+    padding: auto;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    border: 5px solid red;
+}
+
+.label{
+    margin: 1.7rem 1.5rem -5px;
+    padding: auto;
+    font-family: 'Spectral', serif;
+    font-size: 2rem;
+}
+
+/*Modificando boton de enviar*/
+.submit{
+    background-color: #f34;
+    color: black;
+    border: 3px solid #f34;
+    font-size: 1.5rem;
+    font-family: 'Spectral', serif;
+    padding: auto;
+    font-weight: 600;
+    width: 715px;
+}
+
+.submit:hover{
+    color: #efe;
+}
+
+/*Modificando boton de archivo*/
+.file{
+    border: 3px solid #eee;
+    margin: 0px 300px;
+
+}

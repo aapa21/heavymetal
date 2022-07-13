@@ -1,0 +1,121 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    font-family: 'Gentium Basic', serif;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #101D49 ;
+    font-size: 40px;
+}
+
+h4{
+    text-align: center;
+}
+
+.inputs-submit{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.account{
+    width: 400px;
+    height: 500px;
+    background-color:lightslategray;
+    margin-top: 68px;
+    margin-left: 460px;
+    margin-right: 460px;
+    margin-bottom: 68px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.email{
+    border: darkslategray solid;
+    width: 320px;
+    height: 19px;
+
+}
+
+.password{
+    border: darkslategray solid;
+    width: 320px;
+    height: 19px;
+
+
+}
+
+.submit{
+    background-color: rgb(6, 187, 6);
+    border:rgb(9, 151, 9);
+    color:white;
+    padding: 3px 30px;
+    display:inline-block;
+    box-sizing: border-box;
+    margin-right:60px;
+    margin-left: 60px;
+    margin-top: -4px;
+    width:200px;
+}
+
+.h4{
+    margin:10px;
+}
+.account-notice{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 19px;
+}
+
+label{
+    height: 10px;
+    width: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputs-label{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.info{
+    background-color: #ddd;
+    height: 50px;
+    width: 1342px;
+    margin: -15px -2px 1px -6px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: right;
+}
+
+ul li{
+    display:inline-block;
+    font-size: 25px;
+    padding: -5px 0px;
+    margin: 0px 25px 0px 0px;
+}
+
+ul i{
+    padding: auto;
+    margin: 0px 3px 0px -5px;
+    font-size: 18px;
+    color: #02a;
+}
+
+ul a{
+    text-decoration: none;
+    color: #000;
+    padding: auto;
+}
+
+ul a:hover{
+    color: #fff;
+}
+
